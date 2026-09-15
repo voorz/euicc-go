@@ -10,7 +10,7 @@ import (
 
 	"github.com/voorz/euicc-go/bertlv"
 	sgp22 "github.com/voorz/euicc-go/v2"
-	wwanapdu "github.com/damonto/wwan-go/apdu"
+	wwanapdu "github.com/voorz/wwan-go/apdu"
 )
 
 const (

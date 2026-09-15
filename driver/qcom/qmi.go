@@ -6,8 +6,8 @@ import (
 	"fmt"
 
 	"github.com/voorz/euicc-go/driver"
-	"github.com/damonto/wwan-go/qcom"
-	wwanqmi "github.com/damonto/wwan-go/qcom/qmi"
+	"github.com/voorz/wwan-go/qcom"
+	wwanqmi "github.com/voorz/wwan-go/qcom/qmi"
 )
 
 // QMI implements driver.SmartCardChannel over a QMI connection. It is not safe

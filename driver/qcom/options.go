@@ -4,7 +4,7 @@ import (
 	"errors"
 	"time"
 
-	wwanqcom "github.com/damonto/wwan-go/qcom"
+	wwanqcom "github.com/voorz/wwan-go/qcom"
 )
 
 type accessMode uint8

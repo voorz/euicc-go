@@ -7,7 +7,7 @@ import (
 
 	"github.com/voorz/euicc-go/driver"
 	"github.com/voorz/euicc-go/driver/iso7816"
-	wwanat "github.com/damonto/wwan-go/at"
+	wwanat "github.com/voorz/wwan-go/at"
 )
 
 const defaultBaudRate = 115200

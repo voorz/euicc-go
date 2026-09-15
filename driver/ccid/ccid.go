@@ -9,7 +9,7 @@ import (
 
 	"github.com/voorz/euicc-go/driver"
 	"github.com/voorz/euicc-go/driver/iso7816"
-	wwanccid "github.com/damonto/wwan-go/ccid"
+	wwanccid "github.com/voorz/wwan-go/ccid"
 )
 
 const defaultTimeout = 30 * time.Second

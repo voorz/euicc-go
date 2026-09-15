@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/voorz/euicc-go/driver"
-	wwanmbim "github.com/damonto/wwan-go/mbim"
+	wwanmbim "github.com/voorz/wwan-go/mbim"
 )
 
 type reader interface {

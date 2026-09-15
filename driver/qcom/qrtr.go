@@ -6,8 +6,8 @@ import (
 	"fmt"
 
 	"github.com/voorz/euicc-go/driver"
-	"github.com/damonto/wwan-go/qcom"
-	wwanqrtr "github.com/damonto/wwan-go/qcom/qrtr"
+	"github.com/voorz/wwan-go/qcom"
+	wwanqrtr "github.com/voorz/wwan-go/qcom/qrtr"
 )
 
 // QRTR implements driver.SmartCardChannel over QRTR. It is not safe for

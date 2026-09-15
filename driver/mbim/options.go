@@ -4,7 +4,7 @@ import (
 	"errors"
 	"time"
 
-	wwanmbim "github.com/damonto/wwan-go/mbim"
+	wwanmbim "github.com/voorz/wwan-go/mbim"
 )
 
 type accessMode uint8

@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	wwanmbim "github.com/damonto/wwan-go/mbim"
+	wwanmbim "github.com/voorz/wwan-go/mbim"
 )
 
 type fakeMBIMReader struct {

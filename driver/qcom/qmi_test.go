@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	wwanqcom "github.com/damonto/wwan-go/qcom"
+	wwanqcom "github.com/voorz/wwan-go/qcom"
 )
 
 type fakeQMITransport struct {
