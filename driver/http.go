@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/damonto/euicc-go/http/rootci"
+	"github.com/voorz/euicc-go/http/rootci"
 )
 
 // LoggingRoundTripper logs complete HTTP request and response bodies at debug

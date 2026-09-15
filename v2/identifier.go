@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/damonto/euicc-go/bertlv/primitive"
+	"github.com/voorz/euicc-go/bertlv/primitive"
 )
 
 // region ICCID

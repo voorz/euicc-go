@@ -5,7 +5,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/damonto/euicc-go/bertlv"
+	"github.com/voorz/euicc-go/bertlv"
 )
 
 func TestListNotificationResponseErrorChoice(t *testing.T) {

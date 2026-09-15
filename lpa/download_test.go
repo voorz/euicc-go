@@ -3,7 +3,7 @@ package lpa
 import (
 	"testing"
 
-	"github.com/damonto/euicc-go/bertlv"
+	"github.com/voorz/euicc-go/bertlv"
 )
 
 func TestConfirmationCodeRequiredUsesBooleanTag(t *testing.T) {

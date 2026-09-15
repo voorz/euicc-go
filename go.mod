@@ -1,4 +1,4 @@
-module github.com/damonto/euicc-go
+module github.com/voorz/euicc-go
 
 go 1.26.3
 

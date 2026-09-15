@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/damonto/euicc-go/bertlv"
-	sgp22 "github.com/damonto/euicc-go/v2"
+	"github.com/voorz/euicc-go/bertlv"
+	sgp22 "github.com/voorz/euicc-go/v2"
 )
 
 func (c *Client) EUICCChallenge() ([]byte, error) {

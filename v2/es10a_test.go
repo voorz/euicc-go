@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/damonto/euicc-go/bertlv"
+	"github.com/voorz/euicc-go/bertlv"
 )
 
 func marshalRequest(request bertlv.Marshaler) (*bertlv.TLV, error) {

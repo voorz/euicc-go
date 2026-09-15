@@ -13,7 +13,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/damonto/euicc-go/bertlv"
+	"github.com/voorz/euicc-go/bertlv"
 )
 
 func TestSegmentedBoundProfilePackage(t *testing.T) {

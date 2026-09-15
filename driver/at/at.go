@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"slices"
 
-	"github.com/damonto/euicc-go/driver"
-	"github.com/damonto/euicc-go/driver/iso7816"
+	"github.com/voorz/euicc-go/driver"
+	"github.com/voorz/euicc-go/driver/iso7816"
 	wwanat "github.com/damonto/wwan-go/at"
 )
 

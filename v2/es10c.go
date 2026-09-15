@@ -6,8 +6,8 @@ import (
 	"slices"
 	"unicode/utf8"
 
-	"github.com/damonto/euicc-go/bertlv"
-	"github.com/damonto/euicc-go/bertlv/primitive"
+	"github.com/voorz/euicc-go/bertlv"
+	"github.com/voorz/euicc-go/bertlv/primitive"
 )
 
 // region Section 5.7.15, ES10c.GetProfilesInfo

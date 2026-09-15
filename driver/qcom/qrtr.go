@@ -5,7 +5,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/damonto/euicc-go/driver"
+	"github.com/voorz/euicc-go/driver"
 	"github.com/damonto/wwan-go/qcom"
 	wwanqrtr "github.com/damonto/wwan-go/qcom/qrtr"
 )

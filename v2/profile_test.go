@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/damonto/euicc-go/bertlv"
+	"github.com/voorz/euicc-go/bertlv"
 )
 
 func TestProfileInfoUnmarshalAllowsMissingOptionalFields(t *testing.T) {

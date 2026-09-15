@@ -9,10 +9,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/damonto/euicc-go/bertlv"
-	"github.com/damonto/euicc-go/driver/qcom"
-	"github.com/damonto/euicc-go/lpa"
-	sgp22 "github.com/damonto/euicc-go/v2"
+	"github.com/voorz/euicc-go/bertlv"
+	"github.com/voorz/euicc-go/driver/qcom"
+	"github.com/voorz/euicc-go/lpa"
+	sgp22 "github.com/voorz/euicc-go/v2"
 )
 
 func main() {

@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/damonto/euicc-go/bertlv/primitive"
+	"github.com/voorz/euicc-go/bertlv/primitive"
 )
 
 func TestNewValue(t *testing.T) {

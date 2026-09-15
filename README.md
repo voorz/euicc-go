@@ -52,7 +52,7 @@ end-user CLI.
 ## Installation
 
 ```sh
-go get github.com/damonto/euicc-go
+go get github.com/voorz/euicc-go
 ```
 
 ## Minimal Usage
@@ -66,8 +66,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/damonto/euicc-go/driver/ccid"
-	"github.com/damonto/euicc-go/lpa"
+	"github.com/voorz/euicc-go/driver/ccid"
+	"github.com/voorz/euicc-go/lpa"
 )
 
 func main() {
@@ -155,10 +155,10 @@ Import the matching packages as needed:
 import (
 	"time"
 
-	"github.com/damonto/euicc-go/driver/at"
-	"github.com/damonto/euicc-go/driver/ccid"
-	"github.com/damonto/euicc-go/driver/mbim"
-	"github.com/damonto/euicc-go/driver/qcom"
+	"github.com/voorz/euicc-go/driver/at"
+	"github.com/voorz/euicc-go/driver/ccid"
+	"github.com/voorz/euicc-go/driver/mbim"
+	"github.com/voorz/euicc-go/driver/qcom"
 )
 ```
 

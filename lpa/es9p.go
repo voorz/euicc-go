@@ -3,7 +3,7 @@ package lpa
 import (
 	"net/url"
 
-	"github.com/damonto/euicc-go/v2"
+	"github.com/voorz/euicc-go/v2"
 )
 
 // InitiateAuthentication initiates the authentication process.

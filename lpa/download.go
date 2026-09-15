@@ -7,9 +7,9 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/damonto/euicc-go/bertlv"
-	"github.com/damonto/euicc-go/bertlv/primitive"
-	sgp22 "github.com/damonto/euicc-go/v2"
+	"github.com/voorz/euicc-go/bertlv"
+	"github.com/voorz/euicc-go/bertlv/primitive"
+	sgp22 "github.com/voorz/euicc-go/v2"
 )
 
 // ActivationCode represents the activation code for downloading a profile.

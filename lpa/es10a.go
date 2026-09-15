@@ -1,7 +1,7 @@
 package lpa
 
 import (
-	"github.com/damonto/euicc-go/v2"
+	"github.com/voorz/euicc-go/v2"
 )
 
 type EUICCConfiguredAddresses struct {
