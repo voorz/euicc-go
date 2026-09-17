@@ -185,11 +185,14 @@ func (t *cardTransmitter) transmitAPDU(request *wwanapdu.Request) (wwanapdu.Resp
 		return nil, err
 	}
 	ctx := context.Background()
+	/* APDU DEBUG 日志（量大，暂时注释）
 	debug := t.logger.Enabled(ctx, slog.LevelDebug)
 	if debug {
 		t.logger.DebugContext(ctx, "[APDU] sending", "command", fmt.Sprintf("%X", command))
 	}
+	*/
 	b, err := t.channel.Transmit(command)
+	/*
 	if debug {
 		if err != nil {
 			t.logger.DebugContext(ctx, "[APDU] received", "response", fmt.Sprintf("%X", b), "error", err)
@@ -197,6 +200,7 @@ func (t *cardTransmitter) transmitAPDU(request *wwanapdu.Request) (wwanapdu.Resp
 			t.logger.DebugContext(ctx, "[APDU] received", "response", fmt.Sprintf("%X", b))
 		}
 	}
+	*/
 	if err != nil {
 		return nil, err
 	}
