@@ -2,7 +2,6 @@ package driver
 
 import (
 	"bytes"
-	"context"
 	"errors"
 	"fmt"
 	"log/slog"
@@ -184,7 +183,6 @@ func (t *cardTransmitter) transmitAPDU(request *wwanapdu.Request) (wwanapdu.Resp
 	if err != nil {
 		return nil, err
 	}
-	ctx := context.Background()
 	/* APDU DEBUG 日志（量大，暂时注释）
 	debug := t.logger.Enabled(ctx, slog.LevelDebug)
 	if debug {
